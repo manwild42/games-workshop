@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TopNavBarComponent } from 'src/navigation/topnavbar.component';
+import { CenterNavBarComponent } from 'src/center-nav-bar/centernavbar.component';
+import { TopNavBarComponent } from 'src/top-nav-bar/topnavbar.component';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavBarComponent
+    TopNavBarComponent,
+    CenterNavBarComponent
   ],
   imports: [
     BrowserModule
