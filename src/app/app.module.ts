@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { bottomNavBarComponent } from 'src/bottomnavbar/bottomnavbar.component';
+import { BuyNowCardsComponent } from 'src/buynowcards/buynowcards.component';
 import { CenterNavBarComponent } from 'src/center-nav-bar/centernavbar.component';
 import { MainCardComponent } from 'src/main-card/maincard.component';
 import { MainSupportCardsComponent } from 'src/mainsupportcards/mainsupportcards.component';
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
     CenterNavBarComponent,
     bottomNavBarComponent,
     MainCardComponent,
-    MainSupportCardsComponent
+    MainSupportCardsComponent,
+    BuyNowCardsComponent
   ],
   imports: [
     BrowserModule
