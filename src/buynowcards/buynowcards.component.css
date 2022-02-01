@@ -1,0 +1,17 @@
+div.bg-image.first{
+    background-image:url('https://www.games-workshop.com/resources/touts/2022-01-01/GW-Mozrog-Skragbad-2022-01-01-New-HPMulticol-All-bm.jpg');
+    background-position : center;
+    background-size : cover;
+}
+
+div.bg-image.second{
+    background-image:url('https://www.games-workshop.com/resources/touts/2022-01-15/GW-SC-Fyreslayers-2022-15-01-ProductHPMulticol-All-bm.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+div.bg-image.third{
+    background-image:url('https://www.games-workshop.com/resources/touts/2022-01-08/GW-Shadowsun-2022-01-08-New-HPMulticol-All-bm.jpg');
+    background-position:center;
+    background-size:cover;
+}
