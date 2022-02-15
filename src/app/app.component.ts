@@ -9,5 +9,4 @@ import { mock_buynow_list } from './buynowcards/mock_buynow_list';
 })
 export class AppComponent {
   title = 'games-workshop';
-  
 }
