@@ -9,8 +9,8 @@ import { TopNavBarComponent } from 'src/app/Navigation/top-nav-bar/topnavbar.com
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { Warhammer40000Componenet } from './Warhammer-40000.component';
-import { HomeLayoutComponent } from './home-layout.component';
+import { Warhammer40000Componenet } from './Layouts/Warhammer-40000.component';
+import { HomeLayoutComponent } from './Layouts/home-layout.component';
 
 @NgModule({
   declarations: [

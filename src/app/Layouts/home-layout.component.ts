@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { BuynowcardItemModel } from "./buynowcards/buynowcard-item.model";
+import { BuynowcardItemModel } from "../buynowcards/buynowcard-item.model";
 
 @Component({
     selector: 'gw-home-layout',
