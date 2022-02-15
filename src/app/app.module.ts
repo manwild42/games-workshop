@@ -11,6 +11,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Warhammer40000Componenet } from './Layouts/Warhammer-40000.component';
 import { HomeLayoutComponent } from './Layouts/home-layout.component';
+import { NewAndExclusiveComponenet } from './Layouts/New-and-Exclusive.component';
+import { AOSComponenet } from './Layouts/AOS.component';
+import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { HomeLayoutComponent } from './Layouts/home-layout.component';
     MainSupportCardsComponent,
     BuyNowCardsComponent,
     Warhammer40000Componenet,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    NewAndExclusiveComponenet,
+    AOSComponenet,
+    MiddleEarthComponenet
   ],
   imports: [
     BrowserModule,
