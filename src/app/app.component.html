@@ -1,17 +1,6 @@
 <gw-topnavbar> Loading . . . </gw-topnavbar>
 <gw-centernavbar> Loading . . .</gw-centernavbar>
 <gw-bottomnavbar> Loading . . . </gw-bottomnavbar>
-<gw-maincard>Loading . . .</gw-maincard>
-<br>
-<gw-mainsupportcards>Loading . . .</gw-mainsupportcards>
-<br>
-<div *ngFor="let buynowcard of buynowcards">
-<gw-buynowcards 
-img1={{buynowcard.img1}}
-title1 = {{buynowcard.title1}}
-img2 = {{buynowcard.img2}}
-title2 = {{buynowcard.title2}}
-img3 = {{buynowcard.img3}}
-title3 = {{buynowcard.title3}}
->Loading . . .</gw-buynowcards>
-</div>
+
+<router-outlet></router-outlet>
+

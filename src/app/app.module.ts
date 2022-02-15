@@ -8,6 +8,9 @@ import { MainSupportCardsComponent } from 'src/app/mainsupportcards/mainsupportc
 import { TopNavBarComponent } from 'src/app/top-nav-bar/topnavbar.component';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { Warhammer40000Componenet } from './Warhammer-40000.component';
+import { HomeLayoutComponent } from './home-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +20,13 @@ import { AppComponent } from './app.component';
     bottomNavBarComponent,
     MainCardComponent,
     MainSupportCardsComponent,
-    BuyNowCardsComponent
+    BuyNowCardsComponent,
+    Warhammer40000Componenet,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
