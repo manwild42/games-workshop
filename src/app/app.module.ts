@@ -14,6 +14,7 @@ import { HomeLayoutComponent } from './Layouts/home-layout.component';
 import { NewAndExclusiveComponenet } from './Layouts/New-and-Exclusive.component';
 import { AOSComponenet } from './Layouts/AOS.component';
 import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
+import { NaEAccordionComponenet } from './NaE-accordion/NaE-accordion.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
     HomeLayoutComponent,
     NewAndExclusiveComponenet,
     AOSComponenet,
-    MiddleEarthComponenet
+    MiddleEarthComponenet,
+    NaEAccordionComponenet
   ],
   imports: [
     BrowserModule,
