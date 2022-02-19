@@ -15,6 +15,7 @@ import { NewAndExclusiveComponenet } from './Layouts/New-and-Exclusive.component
 import { AOSComponenet } from './Layouts/AOS.component';
 import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
 import { NaEAccordionComponenet } from './NaE-accordion/NaE-accordion.component';
+import { NaEContentCardsComponenet } from 'src/NaE-Content-Cards/NaE-content-cards.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NaEAccordionComponenet } from './NaE-accordion/NaE-accordion.component'
     NewAndExclusiveComponenet,
     AOSComponenet,
     MiddleEarthComponenet,
-    NaEAccordionComponenet
+    NaEAccordionComponenet,
+    NaEContentCardsComponenet
   ],
   imports: [
     BrowserModule,

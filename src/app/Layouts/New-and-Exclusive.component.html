@@ -1,2 +1,16 @@
 This is new and exclusive!
-<gw-NaEAccordion> Loading . . .</gw-NaEAccordion>
+<div class='containter'>
+    <div class="row">
+        <div class="col-md">
+            <gw-NaEAccordion>Loading . . .</gw-NaEAccordion>
+        </div>
+        <div class="col">
+            <div *ngFor="contentcard of contentcards">
+                <gw-NaEContentCards img1={{contentcards.img1}} title1={{contentcards.title1}} price1 ={{contentcards.price1}} 
+                img2={{contentcards.img2}} title2={{contentcards.title2}} price2 ={{contentcards.price2}}
+                img3={{contentcards.img3}} title3={{contentcards.title3}} price3 ={{contentcards.price3}}>Loading . . .
+                </gw-NaEContentCards>
+            </div>
+        </div>
+    </div>
+</div>
