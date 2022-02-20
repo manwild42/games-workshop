@@ -7,12 +7,12 @@ import { NaEContentCardItemModel } from "src/NaE-Content-Cards/NaE-content-cards
     templateUrl: 'New-and-Exclusive.component.html'
 })
 export class NewAndExclusiveComponenet{
-    contentcards: NaEContentCardItemModel[] = []
+    contentcards: NaEContentCardItemModel[] = [];
     
     constructor(){
-        for (var contentcards of mockcontentcardslist){
-          console.log(contentcards);
-          this.contentcards.push(contentcards);
+        for (var contentcard of mockcontentcardslist){
+          console.log(contentcard);
+          this.contentcards.push(contentcard);
         }
       }
 }

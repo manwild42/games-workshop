@@ -1,14 +1,16 @@
 This is new and exclusive!
+
 <div class='containter'>
     <div class="row">
-        <div class="col-md">
+        <div class="col-3">
             <gw-NaEAccordion>Loading . . .</gw-NaEAccordion>
+            <gw-BackToTop>Loading . . .</gw-BackToTop>
         </div>
-        <div class="col">
-            <div *ngFor="contentcard of contentcards">
-                <gw-NaEContentCards img1={{contentcards.img1}} title1={{contentcards.title1}} price1 ={{contentcards.price1}} 
-                img2={{contentcards.img2}} title2={{contentcards.title2}} price2 ={{contentcards.price2}}
-                img3={{contentcards.img3}} title3={{contentcards.title3}} price3 ={{contentcards.price3}}>Loading . . .
+        <div class="col-lg-8">
+            <div *ngFor="let contentcard of contentcards">
+                <gw-NaEContentCards img1={{contentcard.img1}} title1={{contentcard.title1}} price1 ={{contentcard.price1}} 
+                img2={{contentcard.img2}} title2={{contentcard.title2}} price2 ={{contentcard.price2}}
+                img3={{contentcard.img3}} title3={{contentcard.title3}} price3 ={{contentcard.price3}}>Loading . . .
                 </gw-NaEContentCards>
             </div>
         </div>

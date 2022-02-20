@@ -8,8 +8,8 @@ export const mockcontentcardslist = [
         price2:"$65",
         img3:"https://www.games-workshop.com/resources/catalog/product/600x620/60040181799_AstarothAngelofMercyBHB.jpg",
         title3:"Astorath: Angel of Mercy (Hardback)",
-        price3:"$19"
-    },
+        price3:"$19",
+    }
 
 
 
