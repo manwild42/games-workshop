@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mockcontentcardslist } from "src/NaE-Content-Cards/mock-contentcards-list";
-import { NaEContentCardItemModel } from "src/NaE-Content-Cards/NaE-content-cards-item.model";
+import { mockcontentcardslist } from "src/app/NaE-Content-Cards/mock-contentcards-list";
+import { NaEContentCardItemModel } from "src/app/NaE-Content-Cards/NaE-content-cards-item.model";
 
 @Component({
     selector:'gw-NewAndExclusive',

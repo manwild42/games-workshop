@@ -15,10 +15,11 @@ import { NewAndExclusiveComponenet } from './Layouts/New-and-Exclusive.component
 import { AOSComponenet } from './Layouts/AOS.component';
 import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
 import { NaEAccordionComponenet } from './NaE-accordion/NaE-accordion.component';
-import { NaEContentCardsComponenet } from 'src/NaE-Content-Cards/NaE-content-cards.component';
+import { NaEContentCardsComponenet } from 'src/app/NaE-Content-Cards/NaE-content-cards.component';
 import { BackToTopComponenet } from './back-to-top.component';
 import { AOSMain } from './AOSMainCard/AOS-main.component';
 import { AOSSupport } from './AOSsupportcards/AOS-support.component';
+import { BottomFooterComponenet } from './Navigation/bottom-footer/bottom-footer.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AOSSupport } from './AOSsupportcards/AOS-support.component';
     NaEContentCardsComponenet,
     BackToTopComponenet,
     AOSMain,
-    AOSSupport
+    AOSSupport,
+    BottomFooterComponenet
   ],
   imports: [
     BrowserModule,
