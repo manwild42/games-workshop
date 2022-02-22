@@ -1,0 +1,5 @@
+Main features:
+  Created features in NewandExclusive layout, "NaE-accordion", "NaE-Content-Cards", "back-to-top"
+  Created features in AOS layout "AOS-main", "AOS-support" and added image as a banner in AOS layout. also added "back-to-top"
+Bonus Features:
+  Created first footer.
