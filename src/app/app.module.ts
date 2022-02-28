@@ -20,6 +20,8 @@ import { BackToTopComponenet } from './back-to-top.component';
 import { AOSMain } from './AOSMainCard/AOS-main.component';
 import { AOSSupport } from './AOSsupportcards/AOS-support.component';
 import { BottomFooterComponenet } from './Navigation/bottom-footer/bottom-footer.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -40,11 +42,14 @@ import { BottomFooterComponenet } from './Navigation/bottom-footer/bottom-footer
     BackToTopComponenet,
     AOSMain,
     AOSSupport,
-    BottomFooterComponenet
+    BottomFooterComponenet,
+    UserInfoComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
