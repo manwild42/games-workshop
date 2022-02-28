@@ -1,5 +1,5 @@
 Main features:
-  Created features in NewandExclusive layout, "NaE-accordion", "NaE-Content-Cards", "back-to-top"
-  Created features in AOS layout "AOS-main", "AOS-support" and added image as a banner in AOS layout. also added "back-to-top"
+  Created backend using firebase. FIREBASE LINK : https://games-workshop-369ee-default-rtdb.firebaseio.com/
+  Created all necessary files to request information from backend. all files inside User-Info folder in app
 Bonus Features:
-  Created first footer.
+  None
