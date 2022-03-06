@@ -7,20 +7,22 @@ import { BuyNowCardService } from "./buynowcard.service";
     templateUrl: 'buynowcards.component.html',
     styleUrls: ['buynowcards.component.css']
 })
-export class BuyNowCardsComponent implements OnInit{
+export class BuyNowCardsComponent {
 
-    buynowcards : BuynowcardItemModel[] = []
+    @Input() img1: string;
+    @Input() img2: string;
+    @Input() img3: string;
+    @Input() title1: string;
+    @Input() title2: string;
+    @Input() title3: string;
 
-    constructor(private buyNowCardService:BuyNowCardService){
-       
+    constructor(){
+       this.img1="";
+       this.img2="";
+       this.img3="";
+       this.title1="missing";
+       this.title2="missing";
+       this.title3="missing";
     }
-    ngOnInit(): void {
-        this.buyNowCardService.getBuyNowCard().subscribe(data => {
-            console.log("Fetching Buy Now Card data");
-            for (var buyNowcard of data){
-                console.log(buyNowcard);
-                this.buynowcards.push(buyNowcard)
-            }
-        })
-    }
+   
 }
