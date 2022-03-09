@@ -1,14 +1,6 @@
 {
   "hosting": [
     {
-      "public": "dist/games-workshop",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    },
-    {
       "target": "games-workshop",
       "public": "dist/games-workshop",
       "ignore": [
