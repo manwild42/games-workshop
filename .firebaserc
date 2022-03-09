@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "games-workshop-369ee"
+  },
+  "targets": {
+    "games-workshop-369ee": {
+      "hosting": {
+        "games-workshop": [
+          "games-workshop-369ee"
+        ]
+      }
+    }
+  }
+}

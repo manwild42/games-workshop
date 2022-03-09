@@ -21,7 +21,12 @@ import { AOSMain } from './AOSMainCard/AOS-main.component';
 import { AOSSupport } from './AOSsupportcards/AOS-support.component';
 import { BottomFooterComponenet } from './Navigation/bottom-footer/bottom-footer.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import {HttpClientModule } from '@angular/common/http'
+import {HttpClientModule } from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { provideDatabase,getDatabase } from '@angular/fire/database'
 
 @NgModule({
   declarations: [
@@ -49,7 +54,9 @@ import {HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
