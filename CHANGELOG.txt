@@ -1,5 +1,5 @@
 Main features:
-  Created backend using firebase. FIREBASE LINK : https://games-workshop-369ee-default-rtdb.firebaseio.com/
-  Created all necessary files to request information from backend. all files inside User-Info folder in app
+  Created more data in firebase that I used for my buynowcard ng for loop.
+  Added all necessary files for the buynowcard to use the firebase data, as well as deleted the mock list for the buynowcards
 Bonus Features:
   None
