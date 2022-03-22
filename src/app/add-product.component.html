@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm"  (ngSubmit)="addProduct(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image 1 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img1">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image 2 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img2">
+                </div><div class="input-group">
+                    <span class="input-group-text">
+                        Image 3 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img3">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title 1 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title1">
+                </div><div class="input-group">
+                    <span class="input-group-text">
+                        Title 2 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title2">
+                </div><div class="input-group">
+                    <span class="input-group-text">
+                        Title 3 Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title3">
+                </div>
+                <button type="submit" class="btn btn-light"> Add Buy Now Cards</button>
+            </form>
+        </div>
+    </div>
+</div>

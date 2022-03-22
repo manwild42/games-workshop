@@ -17,4 +17,8 @@ export class BuyNowCardService{
 
     public getBuyNowCards(index:number){
     }
+
+    addProduct(product : BuynowcardItemModel){
+        this.db.list<BuynowcardItemModel>("buyNowCard").push(product);
+    }
 }

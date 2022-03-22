@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './Layouts/home-layout.component';
 import { NewAndExclusiveComponenet } from './Layouts/New-and-Exclusive.component';
 import { AOSComponenet } from './Layouts/AOS.component';
 import { MiddleEarthComponenet } from './Layouts/Middle-Earth.component';
+import { AddProductComponent } from './add-product.component';
 
 const routes: Routes = [
   {path:'', component:HomeLayoutComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'home', component: HomeLayoutComponent},
   {path: 'New-and-Exclusive', component: NewAndExclusiveComponenet},
   {path: 'AOS', component: AOSComponenet},
+  {path: 'admin', component: AddProductComponent},
   {path: 'Middle-Earth', component: MiddleEarthComponenet}
 ]
 
