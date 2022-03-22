@@ -1,5 +1,4 @@
 Main features:
-  Created more data in firebase that I used for my buynowcard ng for loop.
-  Added all necessary files for the buynowcard to use the firebase data, as well as deleted the mock list for the buynowcards
+  Created all files and implemented all features necessary to deploy my webiste to web address : https://games-workshop-369ee.web.app/
 Bonus Features:
   None
