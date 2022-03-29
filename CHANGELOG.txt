@@ -1,4 +1,4 @@
 Main features:
-  Created all files and implemented all features necessary to deploy my webiste to web address : https://games-workshop-369ee.web.app/
+  I did everything that Nikola did in the lab recording so that we are able to write to the firebase database. But the website will not compile, it is giving me an error that I do not know how to fix.
 Bonus Features:
   None
